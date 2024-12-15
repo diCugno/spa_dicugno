@@ -63,22 +63,54 @@ Per questo usiamo le espressioni logiche. Questo tipo di costrutti ha la caratte
                 </tbody>
             </table>
         </div>
-         <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>
-         <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
+         <div class="row"><a href="#pagina2">pagina 2 array</a></div>
+         <div class="row"><a href="#pagina3">pagina 3 funzioni</a></div>                  
       </div>
       <div id="pagina2" class="page">
         <div class="row">
             <h1>Array e matrici</h1>
          </div> 
-         <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>        
-         <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
+         <div>
+            Un array, o vettore, è un insieme di elementi dello stesso tipo memorizzati in posizioni di memoria contigue.
+
+notion image
+Un array può avere elementi di qualsiasi tipo base (int, char, float, double, bool). In questo esempio la variabile foo è un array di 5 elementi di tipo intero.
+
+Gli elementi dell’array sono identificati tramite un nome (la variabile array) ed un indice (la posizione dell’elemento nell’array). Gli array hanno una dimensione fissa, definita quando vengono creati.
+
+Gli array sono memorizzati nella memoria del programma (o meglio, del processo in esecuzione) in uno spazio contiguo. Questo permette di avere prestazioni eccellenti ma ha come limite proprio il fatto che non sono ridimensionabili.
+         </div>
+         <div class="row"><a href="#pagina1">pagina 1 if/while</a></div>        
+         <div class="row"><a href="#pagina3">pagina 3 funzioni</a></div>                  
       </div>
       <div id="pagina3" class="page">
          <div class="row">
             <h1>Funzioni</h1>
          </div>
-         <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>
-         <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>                  
+         <div>
+            Da un punto di vista matematico la definizione più semplice di funzione è una relazione tra due insiemi A (detto dominio) e B (detto codominio), che associa ad ogni elemento di A un elemento di B.
+
+In termini formali si esprime nel seguente modo:
+
+f:A->B
+
+Dove per ogni x ∈ A si ha f(x) = B
+
+Esempi:
+
+F(x) = 2*x: dominio numeri interi e codominio numeri interi
+F(x) = x / 2: dominio numeri interi e codominio numeri razionali
+Da questa definizione più semplice discende la definizione più generale: dato un gruppo arbitrario (e finito) di insiemi A, B, C… K una funzione è definita come una relazione tra questi ed un insieme Z, che associa un elemento di A, un elemento di B, un elemento di C, e via andare ad un elemento di Z. Si ha ovverof:X,Y,Z…K → Zf:X,Y,Z…K → Z
+
+dove per a ∈ A, b ∈ B, c ∈ C … k ∈ K  si ha quindi che f(a, b, c, … k) = Z
+
+a,b,c,…k sono una tupla di parametri (detti anche argomenti), e f(a,b,c,…k) è il risultato della funzione, cioè il suo valore di ritorno.
+
+Le funzioni in informatica
+La definizione matematica di funzione viene utilizzata in informatica per definire dei sottoprogrammi del programma principale. Questi sottoprogrammi svolgono quindi funzioni del programma e sono riutilizzabili in punti diversi del programma principale. L’importanza delle funzioni è quindi quella di rendere possibile la modularizzazione dei programmi informatici: è possibile suddividere un programma in sottoprogrammi, e riutilizzare gli stessi sottoprogrammi in programmi differenti.
+         </div>
+         <div class="row"><a href="#pagina1">pagina 1 if/while</a></div>
+         <div class="row"><a href="#pagina2">pagina 2 array</a></div>                  
       </div>
    </div>
    <script type="module" src="./script.js"></script>
@@ -86,5 +118,3 @@ Per questo usiamo le espressioni logiche. Questo tipo di costrutti ha la caratte
 </body>
 
 </html>
-
-
