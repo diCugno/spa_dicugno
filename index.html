@@ -14,19 +14,71 @@
 <body>
    <div id="container" class="container">
       <div id="pagina1" class="page">
-         <div class="row">if/while ed espressioni logiche</div>
+         <div class="row">
+            <h1>if/while ed espressioni logiche</h1>
+        </div>
+        <div>
+            <h3>Espressioni logiche</h3>
+        </div>
+        <div>
+            Nel flusso di esecuzione visto finora il processore del computer esegue le istruzioni del linguaggio in sequenza ed al termine conclude l’esecuzione del programma. Questo può andare bene per programmi di calcolo dove si richiede uno o piú input, e si generano uno o piú output, ma dove l’algoritmo non prevede istruzioni condizionali e/o cicli.
+
+Nel momento in cui si sviluppa un programma che prevede invece sequenze di istruzioni condizionali, ovvero che si svolgono solo se viene verificata una condizione, occorre introdurre il modo in cui esprimere il concetto di condizione stessa.
+
+Per questo usiamo le espressioni logiche. Questo tipo di costrutti ha la caratteristica specifica di poter essere vero oppure falso. Queste espressioni sono utilizzate per confrontare due o più valori (ad esempio numerici) e prevedono degli operatori di confronto specifici che identificano il tipo di confronto. Quelli usati dal C sono i seguenti:
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operatore</th>
+                        <th>Significato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>==</td>
+                        <td>Uguaglianza</td>
+                    </tr>
+                    <tr>
+                        <td>!=</td>
+                        <td>Diversità</td>
+                    </tr>
+                    <tr>
+                        <td>></td>
+                        <td>Maggiore</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;</td>
+                        <td>Minore</td>
+                    </tr>
+                    <tr>
+                        <td>&gt;=</td>
+                        <td>Maggiore uguale</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;=</td>
+                        <td>Minore uguale</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
          <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>
          <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
       </div>
       <div id="pagina2" class="page">
-         <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>
-         <div class="row">Array e matrici</div>         
+        <div class="row">
+            <h1>Array e matrici</h1>
+         </div> 
+         <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>        
          <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
       </div>
-      <div id="pagina3" class="page">         
+      <div id="pagina3" class="page">
+         <div class="row">
+            <h1>Funzioni</h1>
+         </div>
          <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>
          <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>                  
-         <div class="row">Funzioni</div>
       </div>
    </div>
    <script type="module" src="./script.js"></script>
@@ -34,3 +86,5 @@
 </body>
 
 </html>
+
+
